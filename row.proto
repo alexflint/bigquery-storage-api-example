@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package tutorial;
+
+option go_package = ".;main";
+
+message Row {
+	string Name = 1;
+	int32 Age = 2;
+}
