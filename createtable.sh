@@ -1,9 +1,9 @@
 #!/bin/bash
 
-PROJECT=myproject
+PROJECT=scratch-12345
 DATASET=mydataset
 TABLE=mytable
-SCHEMA=name:string,age:integer
+SCHEMA=name:string,age:integer,lastseen:timestamp
 
 # create the dataset
 bq mk ${DATASET}

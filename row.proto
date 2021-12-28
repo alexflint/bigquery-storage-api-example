@@ -7,4 +7,5 @@ option go_package = ".;main";
 message Row {
 	string Name = 1;
 	int32 Age = 2;
+	int64 LastSeen = 3;  // timestamp in bigquery
 }
